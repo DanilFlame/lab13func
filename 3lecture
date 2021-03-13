@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+void MyFuncMultDouble(double x, double y)
+{
+    double z;
+    z = x*y;
+    cout << z;
+    return;
+}
+
+int main() {
+  MyFuncMultDouble(2.5, -2.0); // буде виведено -5
+
+}
