@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+void step(double number);
+
+int main(){
+
+  step(4.4);
+ 
+
+ return 0;
+}
+
+void step(double number)
+{
+  cout<<"Число у квадраті степені = " << pow(number,2) << endl;
+  cout<<"Число у кубі степені = " << pow(number,3) << endl;
+  cout<<"Число у 4-тому степені = " << pow(number,4) << endl;
+}
