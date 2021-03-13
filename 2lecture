@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+// функція, що отримує ціле число, множить його на 2 і виводить результат
+void MyFuncMult2(int x)
+{
+    int res;     // внутрішня змінна
+    res = x * 2; // обчислення результату
+    cout <<res; // вивід результату 
+    return;
+}
+
+
+
+int main() {
+  MyFuncMult2(2);
+
+}
